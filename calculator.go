@@ -10,8 +10,8 @@ func findArea(number_a, number_b float64) float64 {
 }
 
 func main() {
-  var number_a float64 = 10
-  var number_b float64 = 20
+  number_a := 10.0
+  number_b := 20.0
 
   fmt.Printf("The area is %f\n", findArea(number_a, number_b))
 }
